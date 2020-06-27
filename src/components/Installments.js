@@ -1,5 +1,4 @@
 import React from "react";
-//import Installment from "./Installment";
 
 import { formatMoney, formatPercentage } from "../helpers/formatters";
 
@@ -24,22 +23,6 @@ export default function Installments({ capital, interestRate, period }) {
 
   return (
     <div>
-      {/* <ul className="row">
-        {getInstallments().map(
-          ({ parcelNumber, ammount, accumulatedValue, accruedInterest }) => {
-            return (
-              <Installment
-                key={parcelNumber}
-                parcelNumber={parcelNumber}
-                ammount={ammount}
-                accumulatedValue={accumulatedValue}
-                accruedInterest={accruedInterest}
-              />
-            );
-          }
-        )}
-      </ul> */}
-
       <table className="responsive-table centered striped">
         <thead>
           <tr>
